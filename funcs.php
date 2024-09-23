@@ -7,10 +7,10 @@ function h($str){
 //DB接続
 function db_conn(){
   try {
-      $db_name = "ziburihiro_cp_php2";    //データベース名
-      $db_id   = "ziburihiro";      //アカウント名
-      $db_pw   = "hiro1003";          //パスワード：XAMPPはパスワード無し or MAMPはパスワード”root”に修正してください。
-      $db_host = "mysql57.ziburihiro.sakura.ne.jp"; //DBホスト
+      $db_name = "gs_db";    //データベース名
+      $db_id   = "root";      //アカウント名
+      $db_pw   = "";      //パスワード：XAMPPはパスワード無しに修正してください。
+      $db_host = "localhost"; //DBホスト
       return new PDO('mysql:dbname='.$db_name.';charset=utf8;host='.$db_host, $db_id, $db_pw);
   } catch (PDOException $e) {
     exit('DB Connection Error:'.$e->getMessage());
