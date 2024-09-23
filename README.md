@@ -9,12 +9,12 @@ ToDoリスト(Session・ログイン機能追加)
 - セッション、ログイン機能を追加した
 
 ## ③DEMO
-- https://ziburihiro.sakura.ne.jp/php04/index.php
+- https://ziburihiro.sakura.ne.jp/php04/login.php
 
 ## ④作ったアプリケーション用のIDまたはPasswordがある場合
 
-- ID: 今回なし
-- PW: 今回なし
+- ID: test1
+- PW: test1
 
 ## ⑤工夫した点・こだわった点
 
